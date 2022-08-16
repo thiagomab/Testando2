@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="stylesheet" href="bhp.css">
+	<head>
+			<meta charset="utf-8">
+		<title>Colocando na prática o treinamento de HTML Acessível</title>
+	</head>
+
+		<body>
+			<h1>Acessibilidade em Foco</h1>
+				<p>Faça um rápido cadastro para receber sua avaliação</p>
+
+
+	<form id="form1">
+			<fieldset id="teste">
+	<form>
+		<label for="nome">Nome</label>
+			<input type="text" placeholder="Digite seu nome completo" required id="nome"/>
+		<br>
+		<label for="e-mail">E-mail</label>
+			<input type="text" required id="e-mail" aria-describedby="dica"/>
+				<span id="dica">Digite seu e-mail</span>
+		<br>
+			<input id="Concordo" type="checkbox" name="Concordo" value="Concordo">
+		<label for="Concordo">Receber as informações via e-mail</label>
+					
+			</fieldset id=teste>
+			
+			<input type="submit" value="Finalize cadastro">
+	</form>
+		<br>
+	
+		
+		<dl>
+			<dt>Para que foi proporcionado o treinamento?</dt>
+			<dd>Um treinamento cooperativo, visando aperfeiçoar nossos colaboradores.</dd>
+		
+		<h2>Conteúdo do treinamento</h2>
+			<ol>
+			<li>HTML</li>
+
+          	<li>WAI-ARIA</li>
+
+          	<li>Boas práticas de desenvolvimento</li>	
+			</ol>
+
+		</dl>
+			<br>
+		<table border="1">
+			<Caption>Coordenadores do Treinamento</Caption>
+
+		<thead>
+			<tr>
+				<th scope="col">Nome</th>
+				<th scope="col">Função</th>
+			</tr>
+			
+			<tbody>
+
+          	<tr>
+				<td>Priscila Marinovic</td>
+				<td>Coordenadora Turma 2</td>
+			</tr>
+			<tr>
+				<td>Felipe Ferreira</td>
+				<td>Coordenador Turma 2</td>
+			</tr>	
+		</thead>
+
+		</body>
+</html>
