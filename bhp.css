@@ -1,41 +1,49 @@
 body {
-    background-color: rgb(154, 12, 193);  
+    background-color: #ff6f9c;
   }
+
+  main {
+    backgrond-color: 
+    padding: 20px
+    border-radius: 10px
+    
+    min-width: 200px;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+  img {
+   width: 100%
+}
   
   h1 {
-    color: rgb(0, 0, 0);
+    color: #111111;
     text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    font-weight: 900;
+    font-family: cursive;
+    font size: 24px;
+    font-weight: 600;
   }
   
   p {
-    font-family: verdana;
-    font-size: 24px;
+    color: #111111;
     text-align: center;
-  }
-
-  h2 {
-    color: black;
-    font-size: 24px;
-  
-  }
-
-  form {
-    color: brown;
-    background-color: burlywood;
-
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 500;
   }
   
-
-  label {
-    color: black;
-    font-size: 18;
-    font-weight: 700;
+  
+  a:link, a:visited {
+    background-color: #f44336;
+    color: #FFFFFF;
+    padding: 18px 25px;
+    text-align: center;
+    font-family: cursive;
+    text-decoration: none;
+    display: inline-block;
   }
-
-  ::placeholder {
-    color: brown;
-    font-weight: 700;
+  a:hover, a:active {
+    background-color: red;
   }
+  
